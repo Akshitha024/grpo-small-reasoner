@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: grpo-small-reasoner
+message: "Small-scale GRPO training simulator on toy reasoning tasks."
+authors:
+  - family-names: "Lingampally"
+    given-names: "Akshitha Reddy"
+date-released: "2025-05-02"
+version: "0.3.0"
+license: "MIT"
+url: "https://github.com/Akshitha024/grpo-small-reasoner"

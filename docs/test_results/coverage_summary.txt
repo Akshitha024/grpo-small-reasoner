@@ -1,0 +1,22 @@
+......                                                                   [100%]
+================================ tests coverage ================================
+_______________ coverage: platform darwin, python 3.13.3-final-0 _______________
+
+Name                          Stmts   Miss  Cover
+-------------------------------------------------
+src/grpo/__init__.py              1      0   100%
+src/grpo/cli/__init__.py          0      0   100%
+src/grpo/cli/main.py             17     17     0%
+src/grpo/env/__init__.py          0      0   100%
+src/grpo/env/tasks.py             4      0   100%
+src/grpo/policy/__init__.py       0      0   100%
+src/grpo/policy/sim.py           32      0   100%
+src/grpo/runner.py               17      0   100%
+src/grpo/train/__init__.py        0      0   100%
+src/grpo/train/loop.py           24      0   100%
+src/grpo/types.py                17      0   100%
+src/grpo/viz/__init__.py          0      0   100%
+src/grpo/viz/charts.py           61      0   100%
+-------------------------------------------------
+TOTAL                           173     17    90%
+6 passed in 0.70s

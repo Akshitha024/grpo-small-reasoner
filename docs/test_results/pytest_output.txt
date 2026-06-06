@@ -1,0 +1,17 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.13.3, pytest-9.0.3, pluggy-1.6.0 -- /Users/mani/Projects/akshitha-portfolio/projects/grpo-small-reasoner/.venv/bin/python3
+cachedir: .pytest_cache
+rootdir: /Users/mani/Projects/akshitha-portfolio/projects/grpo-small-reasoner
+configfile: pyproject.toml
+testpaths: tests
+plugins: cov-7.1.0
+collecting ... collected 6 items
+
+tests/test_policy.py::test_p_correct_grows_with_step PASSED              [ 16%]
+tests/test_policy.py::test_temperature_decays PASSED                     [ 33%]
+tests/test_policy.py::test_per_task_ceiling_caches PASSED                [ 50%]
+tests/test_runner.py::test_runner_smoke PASSED                           [ 66%]
+tests/test_train.py::test_train_records_each_step PASSED                 [ 83%]
+tests/test_train.py::test_reward_increases_over_steps PASSED             [100%]
+
+============================== 6 passed in 0.49s ===============================
