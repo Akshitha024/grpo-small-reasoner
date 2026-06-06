@@ -25,7 +25,7 @@ Reproduce: `make install && make bench`.
 flowchart LR
   A[8 toy reasoning tasks] --> B[Simulated policy]
   B -->|k roll-outs| C[Group-relative reward]
-  C --> D[Pseudo-update (step++)]
+  C --> D["Pseudo-update (step++)"]
   D --> B
   B --> E[Step records]
   E --> F[5 chart families + summary.json]
